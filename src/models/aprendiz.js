@@ -4,7 +4,7 @@ import sequelize from '../sequelize.js';
 
 
 const Aprendiz = sequelize.define('Aprendiz', {
-  interno: { type: DataTypes.INTEGER, primaryKey: true, autoIncrement: true },
+  id: { type: DataTypes.INTEGER, primaryKey: true, autoIncrement: true },
   matricula: { type:DataTypes.INTEGER, allowNull: false ,unique: true},
   turma: DataTypes.INTEGER,
   nome: DataTypes.STRING,
