@@ -29,7 +29,7 @@ const options = {
     },
     servers: [
       {
-        url: 'https://futurocodebackend-ureotn5zxq-uc.a.run.app/:'+port,
+        url: 'https://futurocodebackend-ureotn5zxq-uc.a.run.app/',
         description: 'API Servidor'
       }
     ],
