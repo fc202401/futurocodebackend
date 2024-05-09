@@ -27,8 +27,8 @@ const options = {
     },
     servers: [
       {
-        url: 'http://localhost:'+port,
-        description: 'API Local'
+        url: 'https://futurocodebackend-ureotn5zxq-uc.a.run.app/:'+port,
+        description: 'API Servidor'
       }
     ],
     components: {
