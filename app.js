@@ -36,7 +36,7 @@ const options = {
         Empresa: {
           type: 'object',
           properties: {
-            nome: { type: 'string' },
+            nome: { type: 'string' , required: true },
             nomeFantasia: { type: 'string' },
             enderecoCompleto: { type: 'string' },
             cnpjCpf: { type: 'string' },
@@ -49,9 +49,9 @@ const options = {
         Aprendiz: {
           type: 'object',
           properties: {
-            matricula: { type: 'integer' },
+            matricula: { type: 'integer', required: true },
             turma: { type: 'integer' },
-            nome: { type: 'string' },
+            nome: { type: 'string', required: true  },
             endereco: { type: 'string' },
             complemento: { type: 'string' },
             bairro: { type: 'string' },
