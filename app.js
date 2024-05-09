@@ -94,7 +94,7 @@ app.use(routesAprendiz);
 app.use(routesEmpresa);
 
 
-app.listen(3000, async () => {
+app.listen(port, async () => {
   console.log(`Servidor rodando na porta ${port}` );
   await sequelize.sync(); // Cria as tabelas no banco de dados, se não existirem
 });
