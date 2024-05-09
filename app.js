@@ -14,7 +14,9 @@ dotenv.config();
 var port = process.env.PORT || 3000;
 var app = express();
 
-app.use(cors());
+app.use(cors({
+  origin: '*' // Permite CORS de qualquer origem
+}));
 app.use(express.json()); // Para analisar o corpo das solicitações JSON
 
 const options = {
